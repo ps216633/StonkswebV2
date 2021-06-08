@@ -23,6 +23,9 @@ Route::get('/download', function () {
 Route::get('/Bibliotheek', function () {
     return view('library');
 })->name('library');
+Route::get('/Winkel', function () {
+    return view('store');
+})->name('store');
 
 Auth::routes(['verify' => true]);
 

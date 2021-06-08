@@ -24,6 +24,15 @@
                         </span>
                     @enderror
                      <br>
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                           <div class="form-group">
+                              <strong>Google recaptcha :</strong>
+                              {!! NoCaptcha::renderJs() !!}
+                              {!! NoCaptcha::display() !!}
+                           </div>
+                        </div>
+                     </div>
                 <button type="submit" class="btn btn-lg btn-groen ">Betalen</button>
             </form>
 

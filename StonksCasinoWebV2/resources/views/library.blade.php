@@ -24,7 +24,7 @@
                       </button>
                     </div>
                     <div class="modal-body card-registreer">
-                      ...
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iure sunt deleniti sapiente inventore, earum veritatis eaque, enim sequi laudantium tempora obcaecati assumenda? Ipsa facilis quo optio. Deleniti possimus aspernatur sed in et inventore laboriosam ea consequatur perspiciatis optio, neque dicta quibusdam ipsa tempora quaerat, voluptates ipsum quidem quo excepturi repellat rem aut voluptatibus. Magni, vero delectus eligendi non quaerat accusamus debitis veritatis eius amet. Deserunt, rem alias nulla recusandae eum laudantium quas eaque nostrum repellendus accusantium in voluptate at voluptatem incidunt itaque dolor similique, voluptatum doloremque velit nisi architecto, aliquid maxime? Minus saepe voluptate doloremque deleniti tempora, beatae reiciendis!
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@
                       </button>
                     </div>
                     <div class="modal-body card-registreer">
-                      ...
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore recusandae nam. Voluptate enim corrupti quaerat. Dolore in nisi a suscipit tempora neque. Vel tempore recusandae sunt minus, rem eius? Ut praesentium nostrum reiciendis non adipisci, porro tempora sint dicta numquam iusto saepe cupiditate ipsum officia laboriosam nesciunt aliquam cumque atque consectetur labore vel quibusdam? Maiores illo, reprehenderit obcaecati nisi dolor ipsum facere eos, earum dolores omnis neque. Illo corrupti repellat omnis soluta nam pariatur veniam exercitationem blanditiis excepturi ut est esse provident magnam recusandae itaque commodi mollitia, tempora ea tempore. Recusandae repellat facere aliquam veritatis sint quaerat nemo architecto.
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@
                       </button>
                     </div>
                     <div class="modal-body card-registreer">
-                      ...
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam deleniti et, at hic facere tempore earum excepturi nesciunt modi esse asperiores dolores sint, non ipsam consequatur, illum repudiandae ab. Voluptates, aut. Nam nihil a placeat impedit illum facilis tenetur rerum cupiditate provident inventore, nisi excepturi recusandae eveniet neque quod pariatur ducimus est alias suscipit minima aperiam. Dicta doloribus at praesentium enim exercitationem dolor eum architecto soluta sapiente provident quisquam, aliquid incidunt quibusdam et adipisci optio ipsum, quas perferendis fuga veniam rerum quos perspiciatis? Dignissimos porro neque perspiciatis recusandae cupiditate mollitia facere inventore, earum ipsa incidunt officiis itaque illo, asperiores voluptate.
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
                       </button>
                     </div>
                     <div class="modal-body card-registreer">
-                      ...
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cupiditate error laboriosam deleniti, consectetur porro exercitationem dolore doloribus aut, magni animi nesciunt debitis distinctio iusto necessitatibus dolorum voluptates cumque quod voluptatem unde, repellat in! Ab labore fugit ipsam, dolore sit accusamus aperiam quasi maiores veritatis molestiae at dolorum libero quidem expedita voluptatum facere vitae assumenda laboriosam delectus non quos illum harum provident natus! Fuga nulla nam natus eveniet esse non nihil nesciunt commodi officia excepturi voluptatum eos dolorum quisquam, aspernatur tempore, velit rem temporibus quo possimus. Odio dolorum enim aut quia excepturi reiciendis, odit error praesentium numquam distinctio consequuntur. Itaque?
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@
                       </button>
                     </div>
                     <div class="modal-body card-registreer">
-                      ...
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea facilis maiores inventore dolore, animi molestiae hic, ullam odit quisquam quae quod repellat aliquid odio sit deleniti quos eaque amet! Quod expedita ratione corrupti atque commodi, architecto recusandae non temporibus eius accusamus laboriosam nemo velit tenetur quas vitae sapiente sint, numquam quibusdam! Tenetur rerum provident labore deserunt officia, explicabo harum ad natus numquam aut dolore ratione possimus commodi sed enim iste nemo et sunt. Asperiores earum ad tempore dolor quo suscipit aspernatur, nam delectus est pariatur dolore alias eius fugit consequatur nesciunt qui! Perspiciatis eos, quia porro cumque maxime repellat necessitatibus?
                     </div>
                   </div>
                 </div>

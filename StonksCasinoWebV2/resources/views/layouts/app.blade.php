@@ -99,7 +99,7 @@
                   <a class="nav-link @yield('nav-Download')" href="{{ route('download')}}">Download</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link @yield('nav-Winkel') " href="/">Winkel</a>
+                  <a class="nav-link @yield('nav-Winkel') " href="{{ route('store')}}">Winkel</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link @yield('nav-Bibliotheek')" href="{{ route('library')}}">Bibliotheek</a>

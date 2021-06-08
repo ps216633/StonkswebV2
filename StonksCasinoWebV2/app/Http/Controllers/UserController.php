@@ -17,6 +17,7 @@ class UserController extends Controller
       
       $update = $request->validate([
          'tokens' => 'required|integer|between:1,1000000',
+         'g-recaptcha-response' => 'required|captcha',
       ]);
 
       $update = [
