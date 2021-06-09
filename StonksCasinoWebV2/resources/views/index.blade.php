@@ -19,7 +19,8 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <input type="button" class="btn btn-success btn-lg btn-download" value="Download">
+                        <a class="btn btn-success btn-lg btn-download" href="{{ asset('applicatie/StonksCasino.application') }}" download>Download</a>
+                      
                     </div>
                 </div>
             </div>

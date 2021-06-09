@@ -7,7 +7,7 @@
             <h1>StonksCasino</h1>
             <p>Dit is de applicatie van StonksCasino. De applicatie bevat games zoals poker, blackjack, roulette, horserace, slotmachine en nog veel meer. Ook bevat de applicatie een winkel waar je diverse skins kan halen. </p>
             <p>De applicatie vereist een login voor gebruik!</p>
-            <button class="btn btn-groen btn-lg">Download</button>
+            <a class="btn btn-groen btn-lg" href="{{ asset('applicatie/StonksCasino.application') }}" download>Download</a>
         </div>
         <div class="col-12 col-lg-6">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
