@@ -100,7 +100,7 @@
                                 @enderror
                             </div>
                         </div>
-                        <input id="tokens" type="text" class="form-control @error('dateofbirth') is-invalid @enderror" name="tokens" value="50" hidden >
+
 
                         <div class="form-group row mb-0">
                             <div class="col-md-5 col-sl-5 offset-md-4">
