@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header card-groen">{{ __('Confirm Password') }}</div>
+                <div class="card-header card-groen">{{ __('Bevestig wachtwoord') }}</div>
 
                 <div class="card-body card-registreer">
                     {{ __('Please confirm your password before continuing.') }}

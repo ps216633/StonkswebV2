@@ -54,7 +54,8 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link nav-account dropdown-toggle float-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->username }}
+                                {{ Auth::user()->username }} <img src="{{asset('img/streep.png')}}" class="imgheader" alt="">  <img src="{{asset('img/Token.png')}}" class="imgheader" alt="">  {{ Auth::user()->token }} 
+
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right menu-account" aria-labelledby="navbarDropdown">
@@ -99,7 +100,7 @@
                   <a class="nav-link @yield('nav-Download')" href="{{ route('download')}}">Download</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link @yield('nav-Winkel') " href="{{ route('store')}}">Winkel</a>
+                  <a class="nav-link @yield('nav-Winkel') " href="{{ route('winkel')}}">Winkel</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link @yield('nav-Bibliotheek')" href="{{ route('library')}}">Bibliotheek</a>

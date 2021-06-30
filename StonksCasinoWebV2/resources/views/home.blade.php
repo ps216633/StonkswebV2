@@ -65,14 +65,14 @@
                         <h3>
                             Gebruikersnaam: {{ Auth::user()->username}}
                         </h3>
-                        <a href="" class="groen">Verander mijn gebruikersnaam</a>
+                        <a href="{{ route('ChangeUsername')}}" class="groen">Verander mijn gebruikersnaam</a>
                         <br> <br>
                         <h3>
                             E-mailadres: {{ Auth::user()->email}}
                         </h3>
-                        <a href="" class="groen">Verander mijn e-mailadres</a>
+                        <a href="{{ route('ChangeEmail')}}" class="groen">Verander mijn e-mailadres</a>
                         <br>
-                        <a href="" class="groen">Verander mijn wachtwoord</a>
+                        <a href="{{ route('ChangePassword')}}" class="groen">Verander mijn wachtwoord</a>
                             <br><br>
                     </div>
                     <div class="col d-none  d-md-block jusitfy-content-center ">

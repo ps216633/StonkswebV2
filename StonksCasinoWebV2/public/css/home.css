@@ -1,3 +1,15 @@
+.imgshop{
+   width: 200px;
+}
+.imgheader{
+   height: 40px;
+}
+.imgtoken{
+   height: 30px;
+}
+.groen{
+   color: #276F2E;
+}
 .card-home{
    height: 54vh;
    background-color: #DDE2CD;
