@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AccountController;
 use App\Http\Controllers\card_skinController;
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -38,6 +40,8 @@ Route::get('/wachtwoord', function () {
 
 Auth::routes(['verify' => true]);
 
+Route::get('/management', [AccountController::class, 'index'])->middleware('auth');
+Route::get('/management/{id}', [AccountController::class, 'edit'])->middleware('auth');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/account-info', [App\Http\Controllers\HomeController::class, 'account'])->middleware('verified')->name('account');
