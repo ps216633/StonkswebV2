@@ -26,6 +26,9 @@ Route::get('/download', function () {
 Route::get('/Bibliotheek', function () {
     return view('library');
 })->name('library');
+Route::get('/AlgemeneVoorwaarden', function () {
+    return view('termsandcoditions');
+})->name('termsandcoditions');
 
 Route::get('winkel', [card_skinController::class, 'index'])->name('winkel');
 Route::get('/Gebruikesnaam', function () {
@@ -40,8 +43,12 @@ Route::get('/wachtwoord', function () {
 
 Auth::routes(['verify' => true]);
 
-Route::get('/management', [AccountController::class, 'index'])->middleware('auth');
+Route::get('/management', [AccountController::class, 'index'])->middleware('auth')->name('manegement');
 Route::get('/management/{id}', [AccountController::class, 'edit'])->middleware('auth');
+Route::get('management/ban/{id}', [AccountController::class, 'update'])->name('management.ban');
+Route::get('management/remove/{id}', [AccountController::class, 'destroy'])->name('management.remove');
+
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/account-info', [App\Http\Controllers\HomeController::class, 'account'])->middleware('verified')->name('account');

@@ -30,7 +30,7 @@
                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                      
                                 <br>
-                        <button type="submit" class="btn btn-groen align-baseline">{{ __('Vernader wachtwoord') }}</button>
+                        <button type="submit" class="btn btn-groen align-baseline">{{ __('Verander wachtwoord') }}</button>
                     </form>
                 </div>
             </div>

@@ -101,3 +101,7 @@
 .img-card-shop{
    height: 150px;
 }
+.transactions{
+   max-height: 60vh;
+   overflow-y: auto;
+}

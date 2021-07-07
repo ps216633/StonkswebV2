@@ -3,11 +3,13 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 mx-3">
             <h1>Klanten</h1>
         </div>
     </div>
-    <div class="row">
+    <div class="row" >
+        
+        
         @foreach ($users as $user)
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="p-3 m-3 shadow rounded card">
@@ -24,6 +26,8 @@
                 </div>
             </div>
         @endforeach
-    </div>
+   
 </div>
+</div>
+
 @endsection

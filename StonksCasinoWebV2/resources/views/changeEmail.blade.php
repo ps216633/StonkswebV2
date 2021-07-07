@@ -10,7 +10,7 @@
                 <div class="card-body card-registreer">
                     <form class="d-inline" method="POST" action="{{ route('updateemail') }}">
                         @csrf
-                        <label for="email">Vernader gebruikersnaam:</label>
+                        <label for="email">Verander gebruikersnaam:</label>
                         <input id="email" type="text" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ Auth::user()->email}}" required autocomplete="email" autofocus>
                         @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -18,7 +18,7 @@
                                     </span>
                                 @enderror
                         <br>
-                        <button type="submit" class="btn btn-groen align-baseline">{{ __('Vernader e-mail') }}</button>
+                        <button type="submit" class="btn btn-groen align-baseline">{{ __('Verander e-mail') }}</button>
                     </form>
                 </div>
             </div>

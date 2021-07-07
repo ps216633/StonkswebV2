@@ -7,6 +7,7 @@ use App\Models\purchased_skin;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\transaction;
+use App\Rules\CheckBanned;
 use App\Rules\CheckPassword;
 use App\Rules\Niels;
 use App\Rules\Shop;
@@ -25,7 +26,7 @@ class UserController extends Controller
       $tokens =  $request->tokens;
       
       $update = $request->validate([
-         'tokens' => 'required|integer|between:1,1000000',
+         'tokens' => ['required', 'integer' , 'between:1,1000000', new CheckBanned],
          'g-recaptcha-response' => 'required|captcha',
       ]);
 

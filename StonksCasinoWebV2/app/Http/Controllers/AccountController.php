@@ -20,6 +20,7 @@ class AccountController extends Controller
         $users = User::all();
 
 
+        
         //controleer roll
         if(Auth::user()->role == 'adminestrator')
         {
@@ -27,7 +28,7 @@ class AccountController extends Controller
         }
         else
         {
-            return view('home');
+            return view('index');
         }
     }
 
@@ -72,8 +73,8 @@ class AccountController extends Controller
     public function edit($id)
     {
         $user = User::where('id' , $id)->first();
-        $transactions = transaction::all();
-   
+        $transactions = transaction::where('userid', $id)->get()->sortByDesc('timestamp');
+      
         return view('userProfile', ['user' => $user, 'transactions' => $transactions]);
     }
 
@@ -86,7 +87,23 @@ class AccountController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //als je op de knop "opslaan" drukt in het update scherm
+        $user = User::where('id' , $id)->first();
+
+        if ($user->banned == false) {
+            $update = [
+                'banned' => true,
+            ];
+            User::where('id', $id)->update($update);
+        }
+        else{
+            $update = [
+                'banned' => false,
+            ];
+            User::where('id', $id)->update($update);
+        }
+
+        
+        return redirect()->back();
     }
 
     /**
@@ -97,6 +114,7 @@ class AccountController extends Controller
      */
     public function destroy($id)
     {
-        //
+        User::where('id', $id)->delete();
+        return redirect()->route('manegement');
     }
 }
